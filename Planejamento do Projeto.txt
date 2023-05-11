@@ -1,0 +1,18 @@
+Trabalho de Programação Web
+
+- Planejamento - 
+
+Data de Entrega: 13/08/21
+
+Criação de um Layout Responsivo (flexbox): um site cuja estrutura não mudará independentemente da resolução de tela ou dispositivo no qual é acessado. 
+
+
+
+
+Tema: Lugares para turismo 
+
+https://www.filmelier.com/br/acao?utm_source=google&utm_medium=link&utm_campaign=BR_filmmelier_traffic_cpc_new-users_hotsite_&utm_term=&utm_content=always-on___&gclid=CjwKCAjw0qOIBhBhEiwAyvVcfwWo23EAoYtzxPTXWBsjVy8DwuzS8YaiHN-37Zz631ihnT-XCPxcHxoCZFsQAvD_BwE
+=> MODELO DE SITE 
+
+https://globalvisa.com.br/preview/25-lugares-para-conhecer-antes-de-morrer/
+=> CONTEÚDO A SEGUIR

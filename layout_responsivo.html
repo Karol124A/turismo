@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Layout_responsivo </title>
+
+	<style>
+		body {
+			margin: 0;
+			background-color: #f8f9fa;
+		}
+
+		.header {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 5px;
+			background-color: #56CFE1;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		.menu {
+			list-style: none;
+			display: flex;
+		}
+
+		@font-face {
+			font-family: 'Arimo';
+			src: url('Arimo-Regular.ttf') ;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'League';
+			src: url('LeagueSpartan-Regular.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		.menu li a {
+			display: block;
+			font-size: 19px;
+			font-family:'League', Times, serif;
+			font-style: normal;
+			font-weight: normal;
+			color: #FFFAFB;
+			padding: 25px;
+		}
+
+		.menu li a:hover {
+			color: #7B2CBF;
+		}
+
+		a {
+			text-decoration: none;
+			color: black;
+		}
+
+
+		h1 {
+			text-align: center;
+			margin-top: 90px;
+			color: #131515;
+			font-family:'League', Times, serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 3em;
+		}
+
+		.elms {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			flex-direction: row;
+			margin-top: 5%;
+		}
+
+		p {
+			font-size: 22px;
+			text-align: center;
+			font-family:'League', Times, serif;
+			font-style: normal;
+			font-weight: normal;
+			color: #240046;
+		}
+
+		img {
+			border-radius: 15px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<a href="layout_responsivo.html"> <img src="img/aviaozinho.png" width="80px" height="80px" alt="logo avião">
+		</a>
+
+		<div class="nav">
+			<ul class="menu">
+				<li> <a href="layout_responsivo.html"> SOBRE </a> </li>
+				<li> <a href="layout_responsivo.html"> TURISMO </a> </li>
+				<li> <a href="layout_responsivo.html"> NOTÍCIAS E DICAS </a> </li>
+				<li> <a href="layout_responsivo.html"> CONTATO </a> </li>
+			</ul>
+		</div>
+	</div>
+
+	<h1> Lugares que você precisa conhecer! </h1>
+
+	<section class="elms">
+
+		<div class="first-item">
+			<img src="img/grande barreira de corais I.jpg" alt="Grande barreira de Coaris"
+				title="Grande Barreira de Corais - Autrália" height="450px" width="350px">
+			<p><b> A Grande Barreira de Corais - Austália </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="second-item">
+			<img src="img/paris_torre II.jpg" alt="Torre Eiffel " title="Paris - Torre Eiffel" height="450px"
+				width="350px">
+			<p><b> Paris - França </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="third-item">
+			<img src="img/bora boraI.jpg" alt="Bora Bora - Polinésia Francesa" title=" Bora Bora - Polinésia Francesa"
+				height="450px" width="350px">
+			<p><b> Bora Bora - Polinésia Francesa </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="fourth-item">
+			<img src="img/tóquio I.jpg" alt="Tóquio - Japão" title="Tóquio - Japão" height="450px" width="350px">
+			<p><b> Tóquio - Japão </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="fifth-item">
+			<img src="img/roma II.jpg" alt="Roma - Itália" title=" Roma - Itália" height="450px" width="350px">
+			<p><b> Roma - Itália </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="sixth-item">
+			<img src="img/londres II.jpg" alt="Londres - Inglaterra" title=" Londres - Inglaterra" height="450px"
+				width="350px">
+			<p><b> Londres - Inglaterra </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="seventh-item">
+			<img src="img/cairo egito II.jpg" alt="Cairo - Egito" title=" Cairo - Egito" height="450px" width="350px">
+			<p><b> Cairo - Egito </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="eigth-item">
+			<img src="img/yellowstone park I.jpg" alt="Yellowstone Park" title="Yellowstone Park" height="450px"
+				width="350px">
+			<p><b> Yellowstone Park National - EUA </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="ninth-item">
+			<img src="img/grand canyon I.jpg" alt="Grand Canyon National Park - EUA"
+				title="Grand Canyon National Park - EUA" height="450px" width="350px">
+			<p><b> Grand Canyon National Park - EUA </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="tenth-item">
+			<img src="img/ilhas virgens britanicas.jpg" alt="Ilhas Virgens Britânicas" title="Ilhas Virgens Britânicas"
+				height="450px" width="350px">
+			<p><b> Ilhas Virgens Britânicas </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="eleventh-item">
+			<img src="img/bali II.jpg" alt="Bali - Indonésia" title="Bali - Indonésia" height="450px" width="350px">
+			<p><b> Bali - Indonésia </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="twelfth-item">
+			<img src="img/patagonia I.jpg" alt="Patagônia - Argentina" title="Patagônia - Argentina" height="450px"
+				width="350px">
+			<p><b> Patagônia - Argentina </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="thirteenth-item">
+			<img src="img/budapeste II.jpeg" alt="Budapeste - Hungria" title="Budapeste - Hungria" height="450px"
+				width="350px">
+			<p><b> Budapeste - Hungria </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="fourteenth-item">
+			<img src="img/f. noronha I.jpg" alt="Fernado de Noronha - Pernambuco"
+				title="Fernanado de Noronha - Pernambuco" height="450px" width="350px">
+			<p><b> Fernando de Noronha - Pernambuco </b></p>
+			<br>
+			<br>
+		</div>
+
+		<div class="fifteenth-item">
+			<img src="img/rio de janeiro.jpg" alt="Rio de Janeiro - Brazil" title="Rio de Janeiro - Brasil"
+				height="450px" width="350px">
+			<p><b> Rio de Janeiro - Brasil </p>
+			<br>
+			<br>
+		</div>
+
+		<div class="sixteenth-item">
+			<img src="img/new  york.jpg" alt="New York - EUA" title=" New York - EUA" height="450px" width="350px">
+			<p><b> New York - EUA </b></p>
+			<br>
+			<br>
+		</div>
+
+	</section>
+	<br>
+	<br>
+</body>
+
+</html>

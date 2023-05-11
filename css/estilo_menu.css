@@ -1,0 +1,29 @@
+.menu {
+    width: 650px;
+    background-color: black;
+}
+.menu ul {
+    background-color: cadetblue;
+    list-style-type: none;
+}
+.menu li {
+     font-size: 12px;
+     font-family: monospace;
+     border-color: black;
+     border-style: solid;
+     border-width: 1px;
+     width: 128px;
+}
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+.menu li a:hover {
+    color:blueviolet;
+    display: block;
+    background-color: chartreuse;
+}
+.menu li {
+    float: right;
+}
